@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Transitions Demo</title>
+
+  <style>
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      line-height: 150px;
+      border-radius: 10px;
+      transition: width 0.5s, background-color 0.5s, transform 0.5s;
+      
+    }
+
+    .box:hover {
+      width: 250px;
+      background-color: #e74c3c;
+      transform: rotate(10deg);
+    }
+  </style>
+</head>
+
+<body>
+  <h2>CSS Transitions Example</h2>
+
+  <div class="box">
+    Hover Me!
+  </div>
+
+</body>
+</html>
